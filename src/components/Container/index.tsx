@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./styles.scss";
 
 const Container = () => {
@@ -9,31 +8,31 @@ const Container = () => {
 			<img className="profile-photo" src="./user.png" alt="Profile Photo" />
 			<ul className="link-wrapper">
 				<li className="social-list">
-					<Link
+					<a
 						id="linkedin"
 						className="btn-social"
-						to="https://www.linkedin.com/in/dev-lucastorres/"
+						href="https://www.linkedin.com/in/dev-lucastorres/"
 						target="_blank"
 						aria-label="Linkedin Profile"
-					></Link>
+					></a>
 				</li>
 				<li className="social-list">
-					<Link
+					<a
 						id="github"
 						className="btn-social"
-						to="https://github.com/lucas-torres-dev/"
+						href="https://github.com/lucas-torres-dev/"
 						target="_blank"
 						aria-label="Github Profile"
-					></Link>
+					></a>
 				</li>
 				<li className="social-list">
-					<Link
+					<a
 						id="x"
 						className="btn-social"
-						to="https://x.com/l_v_c_a_x/"
+						href="https://x.com/l_v_c_a_x/"
 						target="_blank"
 						aria-label="x.com Profile"
-					></Link>
+					></a>
 				</li>
 			</ul>
 			<h3 id="cards-header">My Projects</h3>
