@@ -1,0 +1,23 @@
+@use "./variables" as v;
+
+:root {
+  font-family: v.$default-font;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: v.$text-color;
+  background: v.$bg-color;
+  width: 100%;
+  height: 100vh;
+}
