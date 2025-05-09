@@ -83,16 +83,16 @@ $smooth-border: 1px solid #2424242f;
 }
 
 #linkedin {
-    background: url(./linkedin.png) no-repeat;
+    background: url(../linkedin.png) no-repeat;
     @include social-buttons();
 }
 
 #github {
-    background: url(./github.png) no-repeat;
+    background: url(../github.png) no-repeat;
     @include social-buttons();
 }
 
 #x {
-    background: url(./x.png) no-repeat;
+    background: url(../x.png) no-repeat;
     @include social-buttons();
 }
